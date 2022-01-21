@@ -47,7 +47,7 @@ export class createVeiculo1642718386967 implements MigrationInterface {
         },
         {
           name: 'quantidade_produzida',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'quantidade_produzida_unidade',
@@ -59,7 +59,7 @@ export class createVeiculo1642718386967 implements MigrationInterface {
         },
         {
           name: 'massa',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'massa_unidade',
@@ -67,7 +67,7 @@ export class createVeiculo1642718386967 implements MigrationInterface {
         },
         {
           name: 'comprimento',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'comprimento_unidade',
@@ -75,7 +75,7 @@ export class createVeiculo1642718386967 implements MigrationInterface {
         },
         {
           name: 'altura',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'altura_unidade',
@@ -83,7 +83,7 @@ export class createVeiculo1642718386967 implements MigrationInterface {
         },
         {
           name: 'largura',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'largura_unidade',
@@ -91,11 +91,11 @@ export class createVeiculo1642718386967 implements MigrationInterface {
         },
         {
           name: 'tripulacao',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'custo_unitario',
-          type: 'double'
+          type: 'varchar'
         },
         {
           name: 'custo_unitario_moeda',
